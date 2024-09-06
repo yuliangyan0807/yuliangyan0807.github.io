@@ -88,9 +88,9 @@ work:
     date_end: 2024-05-31
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Led a project on reaction condition recommendation using large language models
+      - Participated in the DPO training of chemical large language model
+      - Conducted a literature review on reasoning with large language models
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -110,15 +110,15 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 70
         icon: code-bracket
-      - name: Data Science
+      - name: PyTorch
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 60
+        icon: <i class="devicon-pytorch-plain-wordmark"></i>
+      - name: Linux
         description: ''
-        percent: 40
+        percent: 50
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
