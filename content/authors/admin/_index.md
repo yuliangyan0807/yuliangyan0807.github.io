@@ -49,9 +49,9 @@ interests:
 
 education:
   - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    institution: The Hong Kong University of Science and Technology (Guangzhou)
+    date_start: 2024-09-01
+    date_end: 2027 (Expected)
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -59,26 +59,26 @@ education:
       url: 'https://example.com'
   - area: MEng Artificial Intelligence
     institution: Fudan University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-09-01
+    date_end: 2023-12-31
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.7/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Advanced Machine Learning
+      - Advanced Deep Learning
+      - Multi-modal Information Processing
+  - area: BSc Mathematics and Applied Mathematics
+    institution: Shanghai University
+    date_start: 2017-09-01
+    date_end: 2021-7-31
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.3/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Mathematical Analysis
+      - Real Analysis
+      - Functional Analysis
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
