@@ -11,7 +11,7 @@ last_name: YAN
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🐬
 
 # Is this the primary user of the site?
 superuser: true
@@ -51,7 +51,7 @@ education:
   - area: PhD Artificial Intelligence
     institution: The Hong Kong University of Science and Technology (Guangzhou)
     date_start: 2024-09-01
-    date_end: 2027-07-31
+    date_end: ''
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -80,28 +80,28 @@ education:
       - Real Analysis
       - Functional Analysis
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Research Intern
+    company_name: Shanghai Artificial Intelligence Laboratory
+    company_url: 'https://www.shlab.org.cn/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-10-01
+    date_end: 2024-05-31
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - position: Backend Software Engineer
+  #   company_name: X
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Responsibilities include:
+  #     - Migrated infrastructure to a new data center
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
