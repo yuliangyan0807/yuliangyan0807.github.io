@@ -49,7 +49,7 @@ interests:
 
 education:
   - area: PhD Artificial Intelligence
-    institution: The Hong Kong University of Science and Technology \(Guangzhou\)
+    institution: The Hong Kong University of Science and Technology (Guangzhou)
     date_start: 2024-09-01
     date_end: 2027-07-31
     summary: |
@@ -71,7 +71,7 @@ education:
   - area: BSc Mathematics and Applied Mathematics
     institution: Shanghai University
     date_start: 2017-09-01
-    date_end: 2021-7-31
+    date_end: 2021-07-31
     summary: |
       GPA: 3.3/4.0
       
