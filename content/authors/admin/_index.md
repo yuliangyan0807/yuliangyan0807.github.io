@@ -49,7 +49,7 @@ interests:
 
 education:
   - area: PhD Artificial Intelligence
-    institution: The Hong Kong University of Science and Technology (Guangzhou)
+    institution: The Hong Kong University of Science and Technology \(Guangzhou\)
     date_start: 2024-09-01
     date_end: 2027-07-31
     summary: |
