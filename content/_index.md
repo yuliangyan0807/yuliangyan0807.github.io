@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: cover.jpg
           filters:
-            brightness: 1.0
+            brightness: 0.8
           size: cover
           position: center
           parallax: false
@@ -35,9 +35,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a first year PhD at HKUST (GZ). My research focuses on two main areas. 
+        I'm a first year PhD at HKUST (GZ). Currently, my research focuses on two main areas. 
 
         The first area is Trustworthy AI. Specifically, I aim to design algorithms capable of extracting the "fingerprint" of large language models (LLMs) to protect their intellectual property. I am also exploring privacy issues in multi-agent systems and investigating LLMs unlearning problems. 
+
         The second area is AI4Science, where I hope to train high-performing foundational models applicable to a wide range of protein-related tasks. Additionally, I seek to explore methods for seamlessly integrating graph modalities with LLMs to enhance the model's ability to understand and represent protein structures and semantic information.
         
         I'm a complete beginner, but if any experts are interested, please feel free to reach out to collaborate 😃
