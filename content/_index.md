@@ -37,7 +37,7 @@ sections:
       text: |-
         I'm a first year PhD at HKUST (GZ). Currently, my research focuses on two main areas. 
 
-        The first area is Trustworthy AI. Specifically, I aim to design algorithms capable of extracting the "fingerprint" of large language models (LLMs) to protect their intellectual property. I am also exploring privacy issues in multi-agent systems and investigating LLMs unlearning problems. 
+        The first area is Trustworthy AI. Specifically, I aim to design algorithms capable of extracting the ``fingerprint'' of large language models (LLMs) to protect their intellectual property. I am also exploring privacy issues in multi-agent systems and investigating LLMs unlearning problems. 
 
         The second area is AI4Science, where I hope to train high-performing foundational models applicable to a wide range of protein-related tasks. Additionally, I seek to explore methods for seamlessly integrating graph modalities with LLMs to enhance the model's ability to understand and represent protein structures and semantic information.
         
