@@ -34,10 +34,10 @@ publication_short: In *ICW*
 abstract: Recently, much research in psychology has benefited from the advances in machine learning techniques. Some recent studies showed that it is possible to build automated scoring models for children’s mindreading. These models were trained on a set of manually-labeled question-response pairs, which were collected by asking children to answer one or two questions after a short story is told or a video clip is played. However, existing models did not take the features of the stories and video clips into account when scoring, which obviously will reduce the accuracy of the scoring models. Furthermore, considering that different psychological tests may contain the same questions, this approach cannot be extended to other related psychological test datasets. In this study, we proposed a multi-modal learning framework to leverage the features extracted from the stories and videos related to the questions being asked during the children’s mindreading evaluation. Experimental results show that the scores produced by the proposed models agree well with those graded by human experts, highlighting the potential of the proposed network architecture for practical automated children’s mindreading scoring systems.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: An novel framework for children's mindreading ability in psychology.
 
-# tags:
-#   - Machine Reading; AI4Psychology; Natural Language Processing
+tags:
+  - Machine Reading; AI4Psychology; Natural Language Processing
 
 # Display this page in the Featured widget?
 featured: true
@@ -59,7 +59,7 @@ url_code: 'https://github.com/yuliangyan0807/emnlp2023-unifm-mindreading'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
