@@ -39,19 +39,19 @@ abstract: Large language models (LLMs) have made impressive progress in chemistr
 tags:
 - AI for Science; Large Language Models
 
-featured: false
+featured: true
 
 # links:
 # - name: Custom Link
 #   url: http://example.org
 url_pdf: https://arxiv.org/abs/2402.06852
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
