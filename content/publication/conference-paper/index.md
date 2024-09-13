@@ -36,8 +36,8 @@ abstract: Recently, much research in psychology has benefited from the advances 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-  - Machine Reading; AI4Psychology; Natural Language Processing
+# tags:
+#   - Machine Reading; AI4Psychology; Natural Language Processing
 
 # Display this page in the Featured widget?
 featured: true
