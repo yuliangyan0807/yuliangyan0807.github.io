@@ -100,11 +100,11 @@ skills:
       - name: Python
         description: ''
         percent: 70
-        icon: code-bracket
+        icon: python.png
       - name: PyTorch
         description: ''
         percent: 60
-        icon: <i class="devicon-pytorch-plain-wordmark"></i>
+        icon: code-bracket
       - name: Linux
         description: ''
         percent: 50
