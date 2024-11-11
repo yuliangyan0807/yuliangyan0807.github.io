@@ -100,7 +100,7 @@ skills:
       - name: Python
         description: ''
         percent: 70
-        icon: python.png
+        icon: 'assets/media/icons/'
       - name: PyTorch
         description: ''
         percent: 60
