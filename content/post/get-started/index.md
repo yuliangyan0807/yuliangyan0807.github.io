@@ -1,7 +1,7 @@
 ---
 title: 🎉 Join the Trust & Application AI Lab!
 summary: An amazing new start for me, everything is pretty cool!
-date: 2024-9-1
+date: 2024-09-01
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
