@@ -56,11 +56,11 @@ education:
     institution: The Hong Kong University of Science and Technology (Guangzhou)
     date_start: 2024-09-01
     date_end: 
-#    summary: |
-#      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-#    button:
-#      text: 'Read Thesis'
-#      url: 'https://example.com'
+    summary: |
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
   - area: Master Natural Language Processing
     institution: Fudan University
     date_start: 2021-09-01
@@ -183,4 +183,7 @@ awards:
 
 ## About Me
 
+**Research**: Currently, my research focuses on two main directions. The first is <font color=#b7b7eb>AI for Protein</font>, which explores how artificial intelligence can advance research in protein science, including areas such as peptide design and protein mutation effect prediction. The second direction centers on <font color=#60966D>Large Language Models</font>, with a particular emphasis on building trustworthy LLMs and applying LLM for science.
+
+**Previously**: 
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
