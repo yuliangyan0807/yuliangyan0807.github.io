@@ -68,10 +68,10 @@ education:
     summary: |
       GPA: 3.8/4.0
 
-  #    Courses included:
-  #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Mathematics
     institution: Shanghai University
     date_start: 2017-09-01
@@ -79,10 +79,10 @@ education:
     summary: |
       GPA: 3.4/4.0
       
-  #    Courses included:
-  #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
