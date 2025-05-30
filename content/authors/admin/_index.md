@@ -33,18 +33,18 @@ profiles:
   - icon: at-symbol
     url: 'yyan726@connect.hkust-gz.edu.cn'
     label: E-mail Me
-#  - icon: brands/x
-#    url: https://twitter.com/GetResearchDev
-#  - icon: brands/instagram
-#    url: https://www.instagram.com/
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/yuliangyan0807
-#  - icon: brands/linkedin
-#    url: https://www.linkedin.com/
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZukVBVUAAAAJ&hl=en
-#  - icon: academicons/orcid
-#    url: https://orcid.org/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
   - AI for Protein
