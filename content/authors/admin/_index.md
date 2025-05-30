@@ -35,8 +35,6 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/yuliangyan0807
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZukVBVUAAAAJ&hl=en
     
