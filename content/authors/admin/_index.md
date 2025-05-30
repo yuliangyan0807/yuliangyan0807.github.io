@@ -39,10 +39,12 @@ profiles:
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZukVBVUAAAAJ&hl=en
+    
 interests:
   - AI for Protein
   - Large Language Models
   - Deep Learning
+
 education:
   - area: PhD Artificial Intelligence
     institution: The Hong Kong University of Science and Technology (Guangzhou)
