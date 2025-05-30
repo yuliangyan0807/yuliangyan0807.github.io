@@ -33,18 +33,12 @@ profiles:
   - icon: at-symbol
     url: 'yyan726@connect.hkust-gz.edu.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/yuliangyan0807
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=ZukVBVUAAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
 interests:
   - AI for Protein
@@ -186,4 +180,4 @@ awards:
 **Research**: Currently, my research focuses on two main directions. The first is <font color=#b7b7eb>AI for Protein</font>, which explores how artificial intelligence can advance research in protein science, including areas such as peptide design and protein mutation effect prediction. The second direction centers on <font color=#60966D>Large Language Models</font>, with a particular emphasis on building trustworthy LLMs and applying LLM for science.
 
 **Previously**: 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently a Ph.D. student at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Enyan Dai](https://enyandai.github.io/). I received my M.S. degree from the Natural Language Processing Lab at [Fudan University](https://www.fudan.edu.cn/), where I was advised by Xiaoqing Zheng. Prior to that, I obtained my B.S. degree in Mathematics and Applied Mathematics from [Shanghai University](https://www.shu.edu.cn/).
