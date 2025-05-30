@@ -46,8 +46,8 @@ interests:
   - Deep Learning
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: The Hong Kong University of Science and Technology (Guangzhou)
+  - area: PhD
+    institution: HKUST-GZ
     date_start: 2024-09-01
     date_end: 2028-07-01
     summary: |
@@ -55,7 +55,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: Master Natural Language Processing
+  - area: Master
     institution: Fudan University
     date_start: 2021-09-01
     date_end: 2024-03-01
@@ -66,7 +66,7 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Mathematics
+  - area: BSc in Mathematics
     institution: Shanghai University
     date_start: 2017-09-01
     date_end: 2021-07-01
