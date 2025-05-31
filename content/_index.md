@@ -30,7 +30,7 @@ sections:
           parallax: false
   - block: collection
     content:
-      title: Recent Publications
+      title: Paper List
       text: ""
       filters:
         folders:
