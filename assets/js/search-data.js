@@ -504,11 +504,11 @@ ninja.data = [{
           window.open("mailto:%79%79%61%6E%37%32%36@%63%6F%6E%6E%65%63%74.%68%6B%75%73%74-%67%7A.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/yuliangyan0807", "_blank");
         },
       },{
         id: 'social-scholar',
