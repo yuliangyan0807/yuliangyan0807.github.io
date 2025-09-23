@@ -35,6 +35,16 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    height: auto;
+  }
+}
+
+// Limit portrait height on larger screens while preserving aspect ratio
+@media (min-width: 576px) {
+  .about-intro .profile img {
+    max-height: 320px;
+    width: auto;
+    height: auto;
   }
 }
 
