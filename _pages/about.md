@@ -27,8 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Currently:** I am a second year PhD student, surpervised by [Enyan Dai](https://enyandai.github.io/). My research focuses on AI for Protein, with the goal of building efficient and robust deep learning models to advance protein engineering. I am also dedicated to developing algorithms with rigorous mathematical guarantees for <i>de novo</i> drug design, such as molecular glues and peptides. In addition, my work extends to the development of trustworthy large language models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Previously:** I earned my master’s degree from [Fudan University](https://www.fudan.edu.cn/) and my bachelor’s degree in Mathematics from [Shanghai University](https://shu.edu.cn).
