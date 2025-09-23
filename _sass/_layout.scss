@@ -42,7 +42,7 @@ body.sticky-bottom-footer {
 // Limit portrait height on larger screens while preserving aspect ratio
 @media (min-width: 576px) {
   .about-intro .profile img {
-    max-height: 320px;
+    max-height: 280px;
     width: auto;
     height: auto;
   }
@@ -50,7 +50,7 @@ body.sticky-bottom-footer {
 
 // About intro row
 .about-intro {
-  gap: 1.25rem; // space between photo and text
+  gap: 0.9rem; // space between photo and text
 }
 
 // TODO: redefine content layout.
