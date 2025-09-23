@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student at <a href='https://www.hkust-gz.edu.cn/'>HKUST (GZ)</a>
 
 profile:
   align: right
