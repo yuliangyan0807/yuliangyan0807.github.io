@@ -6,7 +6,7 @@ subtitle: PhD Student at <a href='https://www.hkust-gz.edu.cn/'>HKUST (GZ)</a><b
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: yuliang.png
   image_circular: false # crops the image to make it circular
   more_info:
 
