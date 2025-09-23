@@ -37,6 +37,9 @@ body.sticky-bottom-footer {
     width: 100%;
     height: auto;
   }
+  figure {
+    margin: 0; // remove default figure margins to tighten spacing
+  }
 }
 
 // Limit portrait height on larger screens while preserving aspect ratio
