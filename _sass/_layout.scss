@@ -42,19 +42,23 @@ body.sticky-bottom-footer {
   }
 }
 
-// Limit portrait height on larger screens while preserving aspect ratio
+// About intro row
+.about-intro {
+  gap: 0.5rem; // space between photo and text
+  margin-bottom: 1.5rem; // separation from bio/content
+}
+
+// Ensure profile container hugs image width on larger screens (override theme's 30%)
 @media (min-width: 576px) {
+  .about-intro .profile {
+    width: auto;
+    flex-basis: auto;
+  }
   .about-intro .profile img {
     max-height: 240px;
     width: auto;
     height: auto;
   }
-}
-
-// About intro row
-.about-intro {
-  gap: 0.5rem; // space between photo and text
-  margin-bottom: 1.5rem; // separation from bio/content
 }
 
 // TODO: redefine content layout.
