@@ -44,12 +44,13 @@ body.sticky-bottom-footer {
 
 // About intro row
 .about-intro {
-  gap: 0.75rem; // space between photo and text
+  gap: 1rem; // space between photo and text (mobile)
   margin-bottom: 1.5rem; // separation from bio/content
 }
 
 // Ensure profile container hugs image width on larger screens (override theme's 30%)
 @media (min-width: 576px) {
+  .about-intro { gap: 1.25rem; } // more space on small tablets
   .about-intro .profile {
     width: auto;
     flex-basis: auto;
@@ -60,6 +61,11 @@ body.sticky-bottom-footer {
     height: auto;
   }
 }
+
+@media (min-width: 992px) {
+  .about-intro { gap: 1.75rem; } // comfortable desktop spacing
+}
+
 
 // TODO: redefine content layout.
 
