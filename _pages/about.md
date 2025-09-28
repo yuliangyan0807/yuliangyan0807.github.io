@@ -27,4 +27,4 @@ latest_posts:
 
 **Research:** Currently, I am a second year PhD student, surpervised by [Enyan Dai](https://enyandai.github.io/). My research focuses on AI for Protein, with the goal of building efficient and robust deep learning models to advance protein engineering. I am also dedicated to developing algorithms with rigorous mathematical guarantees for <i>de novo</i> drug design, such as molecular glues and peptides. In addition, my work extends to the development of trustworthy large language models.
 
-**Previously:** I earned my master’s degree from [Fudan University](https://www.fudan.edu.cn/) and my bachelor’s degree in Mathematics from [Shanghai University](https://shu.edu.cn).
+**Previously:** I earned my master's degree from Fudan NLP Group, [Fudan University](https://www.fudan.edu.cn/) and my bachelor's degree in Mathematics from [Shanghai University](https://shu.edu.cn).
