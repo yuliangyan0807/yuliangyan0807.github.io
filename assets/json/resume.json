@@ -1,200 +1,148 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yuliang Yan",
+    "label": "PhD Student in Artificial Intelligence",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yyan726@connect.hkust-gz.edu.cn",
+    "url": "https://yuliangyan0807.github.io",
+    "summary": "PhD student at HKUST (GZ), supervised by Enyan Dai. Research focuses on AI for Protein, de novo drug design, and trustworthy large language models.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Guangzhou",
+      "countryCode": "CN",
+      "region": "Guangdong"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "yuliangyan0807",
+        "url": "https://github.com/yuliangyan0807"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "location": "Guangzhou, China",
+      "url": "https://www.hkust-gz.edu.cn/",
+      "area": "Artificial Intelligence",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "score": "",
+      "courses": ["Supervised by Enyan Dai"]
+    },
+    {
+      "institution": "Fudan University",
+      "location": "Shanghai, China",
+      "url": "https://www.fudan.edu.cn/",
+      "area": "Computer Science",
+      "studyType": "MSc",
+      "startDate": "2021-09-01",
+      "endDate": "2024-01-01",
+      "score": "",
+      "courses": ["Supervised by Xiaoqing Zheng"]
+    },
+    {
+      "institution": "Shanghai University",
+      "location": "Shanghai, China",
+      "url": "https://www.shu.edu.cn/",
+      "area": "Mathematics and Applied Mathematics",
+      "studyType": "BS",
+      "startDate": "2017-09-01",
+      "endDate": "2021-07-01",
+      "score": "",
+      "courses": []
     }
   ],
-  "awards": [
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Shanghai Artificial Intelligence Laboratory",
+      "position": "Research Intern",
+      "url": "https://www.shlab.org.cn/",
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-01",
+      "summary": "Shanghai, China",
+      "highlights": [
+        "Lead the design and evaluation of training algorithms for reaction condition recommendation using LLMs, including dataset construction and cleaning. The proposed framework can directly generate plausible chemical reaction conditions with high accuracy.",
+        "Contributed to the DPO training of a chemistry-specific LLM for improved alignment with domain preferences, including both dataset construction and training algorithm development. Participated in the publication of research on ChemLLM during the internship."
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "General Protein Pretraining or Domain-Specific Designs? Benchmarking Protein Modeling on Realistic Applications",
+      "publisher": "KDD, Datasets and Benchmarks Track",
+      "releaseDate": "2025-06-01",
+      "url": "https://arxiv.org/abs/2506.02052",
+      "summary": "Shuo Yan*, Yuliang Yan*, Bin Ma, Chenao Li, Haochun Tang, Jiahua Lu, Minhua Lin, Yuyuan Feng, Hui Xiong, Enyan Dai."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization",
+      "publisher": "ACL",
+      "releaseDate": "2026-04-16",
+      "url": "https://aclanthology.org/2026.acl-long.2051/",
+      "summary": "Haochun Tang*, Yuliang Yan*, Jiahua Lu, Huaxiao Liu, Enyan Dai."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "DuFFin: A Dual-Level Fingerprinting Framework for LLMs IP Protection",
+      "publisher": "EACL Findings",
+      "releaseDate": "2026-03-01",
+      "url": "https://yuliangyan0807.github.io/publications/",
+      "summary": "Yuliang Yan, Haochun Tang, Shuo Yan, Enyan Dai."
+    },
+    {
+      "name": "Measure Children's Mindreading Ability with Machine Reading",
+      "publisher": "EMNLP Findings",
+      "releaseDate": "2023-12-01",
+      "url": "https://aclanthology.org/",
+      "summary": "Yuliang Yan, Xiaohua Wang, Xiang Zhou, Xiaoqing Zheng, Xuanjing Huang."
+    },
+    {
+      "name": "Hallucination Detection for Generative Large Language Models by Bayesian Sequential Estimation",
+      "publisher": "EMNLP",
+      "releaseDate": "2023-12-01",
+      "url": "https://aclanthology.org/",
+      "summary": "Xiaohua Wang, Yuliang Yan, Longtao Huang, Xiaoqing Zheng, Xuanjing Huang."
+    },
+    {
+      "name": "TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-07-24",
+      "url": "https://arxiv.org/abs/2607.22143",
+      "summary": "Yuliang Yan, Shuo Yan, Haochun Tang, Yiqin Sun, Enyan Dai."
+    },
+    {
+      "name": "ChemLLM: A Chemical Large Language Model",
+      "publisher": "arXiv:2402.06852",
+      "releaseDate": "2024-02-01",
+      "url": "https://arxiv.org/abs/2402.06852",
+      "summary": "Di Zhang, Wei Liu, Qian Tan, Jingdan Chen, Hang Yan, Yuliang Yan, and others."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "AAAI, ICLR, NeurIPS",
+      "location": "",
+      "position": "Reviewer",
+      "url": "",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "summary": "Conference reviewer for AAAI (2026), ICLR (2026), and NeurIPS (2026).",
+      "highlights": []
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Languages",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "Java", "C/C++", "Matlab"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Frameworks",
+      "level": "",
+      "icon": "fa-solid fa-cubes",
+      "keywords": ["PyTorch", "DeepSpeed", "Flask"]
     }
   ]
 }
