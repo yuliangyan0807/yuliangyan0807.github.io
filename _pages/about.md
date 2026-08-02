@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <strong>PhD Student at <a href='https://www.hkust-gz.edu.cn/'>HKUST (GZ)</a></strong><br/><br/><br/><span lang="fr"><em>La seule façon de lutter contre la peste, c’est l’honnêteté.</em></span><br/>(The only way to fight the plague is with decency.)<br/>&mdash; Albert Camus
+subtitle: <strong>PhD Student at <a href='https://www.hkust-gz.edu.cn/'>HKUST (GZ)</a></strong><br/><br/><span lang="fr"><em>La seule façon de lutter contre la peste, c’est l’honnêteté.</em></span><br/>(The only way to fight the plague is with decency.)<br/>&mdash; Albert Camus
 
 profile:
   align: left
