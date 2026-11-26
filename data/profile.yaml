@@ -1,0 +1,46 @@
+name: Yuliang Yan
+chinese_name: 闫宇量
+role: PhD Student in Artificial Intelligence
+affiliation: The Hong Kong University of Science and Technology (Guangzhou)
+affiliation_short: HKUST (GZ)
+affiliation_url: https://www.hkust-gz.edu.cn/
+avatar: /img/yuliang.png
+email: yyan726@connect.hkust-gz.edu.cn
+location: Guangzhou, China
+
+quote:
+  text: "La seule façon de lutter contre la peste, c’est l’honnêteté."
+  translation: "(The only way to fight the plague is with decency.)"
+  author: "Albert Camus"
+
+socials:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "mailto:yyan726@connect.hkust-gz.edu.cn"
+  - name: Google Scholar
+    icon: "ai ai-google-scholar"
+    url: "https://scholar.google.com/citations?user=ZukVBVUAAAAJ"
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://github.com/yuliangyan0807"
+  - name: CV
+    icon: "ai ai-cv"
+    url: "/pdf/Yuliang_Yan_CV.pdf"
+
+interests:
+  - AI for Protein & Protein Engineering
+  - "De Novo Drug Design (Molecular Glues & Peptides)"
+  - Trustworthy Large Language Models
+
+education:
+  - degree: "Ph.D. in Artificial Intelligence"
+    year: "2024 – Present"
+    institution: "The Hong Kong University of Science and Technology (Guangzhou)"
+    note: "Supervised by Prof. Enyan Dai"
+  - degree: "M.Sc. in Computer Science"
+    year: "2021 – 2024"
+    institution: "Fudan University"
+    note: "Fudan NLP Group, supervised by Prof. Xiaoqing Zheng"
+  - degree: "B.S. in Mathematics and Applied Mathematics"
+    year: "2017 – 2021"
+    institution: "Shanghai University"

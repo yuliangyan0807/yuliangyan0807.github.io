@@ -1,0 +1,51 @@
+baseURL = "https://yuliangyan0807.github.io/"
+languageCode = "en-us"
+title = "Yuliang Yan"
+enableRobotsTXT = false
+
+[params]
+  description = "Yuliang Yan (闫宇量) — PhD Student in Artificial Intelligence at HKUST (GZ). Research on AI for Protein, de novo drug design, and trustworthy LLMs."
+  author = "Yuliang Yan"
+  favicon = "/img/dolphin.png"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/#about"
+  weight = 10
+
+[[menu.main]]
+  name = "Selected Publications"
+  url = "/#publications"
+  weight = 20
+
+[[menu.main]]
+  name = "Experience"
+  url = "/#experience"
+  weight = 30
+
+[[menu.main]]
+  name = "Service"
+  url = "/#service"
+  weight = 40
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 50
+
+[[menu.main]]
+  name = "All Publications"
+  url = "/publications/"
+  weight = 60
+
+[[menu.main]]
+  name = "CV"
+  url = "/pdf/Yuliang_Yan_CV.pdf"
+  weight = 70
+  [menu.main.params]
+    external = true

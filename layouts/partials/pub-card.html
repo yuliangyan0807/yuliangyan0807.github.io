@@ -1,0 +1,68 @@
+<article class="pub-item" data-search="{{ lower .title }} {{ lower (delimit .authors " ") }} {{ lower .venue }} {{ .year }}">
+  <div class="pub-media">
+    {{ if .image }}
+      <img src="{{ .image | relURL }}" alt="{{ .title }}" class="pub-thumb zoomable" loading="lazy">
+    {{ else }}
+      <div class="pub-thumb-placeholder">
+        <span>{{ .year }}</span>
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="pub-content">
+    <h3 class="pub-title">
+      {{ if .links.pdf }}
+        <a href="{{ .links.pdf }}" target="_blank" rel="noopener">{{ .title }}</a>
+      {{ else if .links.arxiv }}
+        <a href="{{ .links.arxiv }}" target="_blank" rel="noopener">{{ .title }}</a>
+      {{ else }}
+        {{ .title }}
+      {{ end }}
+    </h3>
+
+    <div class="pub-authors">
+      {{ $total := len .authors }}
+      {{ range $i, $author := .authors }}
+        {{- if gt $i 0 }}, {{ end -}}
+        {{- if strings.Contains $author "Yuliang Yan" -}}
+          <strong class="author-self">{{ $author }}</strong>
+        {{- else -}}
+          {{ $author }}
+        {{- end -}}
+      {{ end }}
+    </div>
+
+    <div class="pub-venue">
+      <em>{{ .venue }}</em>{{ if .date }} <span class="pub-date">&middot; {{ .date }}</span>{{ end }}
+    </div>
+
+    {{ if .summary }}
+      <p class="pub-summary">{{ .summary }}</p>
+    {{ end }}
+
+    <div class="pub-links">
+      {{ if .links.arxiv }}
+        <a class="btn-pill" href="{{ .links.arxiv }}" target="_blank" rel="noopener">arXiv</a>
+      {{ end }}
+      {{ if .links.pdf }}
+        <a class="btn-pill" href="{{ .links.pdf }}" target="_blank" rel="noopener">PDF</a>
+      {{ end }}
+      {{ if .links.code }}
+        <a class="btn-pill" href="{{ .links.code }}" target="_blank" rel="noopener">Code</a>
+      {{ end }}
+      {{ if .bibtex }}
+        <button class="btn-pill btn-bib" type="button" data-bib="bib-{{ .key }}">BibTeX</button>
+      {{ end }}
+    </div>
+
+    {{ if .bibtex }}
+      <div class="bib-block" id="bib-{{ .key }}" hidden>
+        <div class="bib-header">
+          <span>BibTeX</span>
+          <button class="bib-copy" type="button" data-copy="bib-code-{{ .key }}">Copy</button>
+        </div>
+        <pre><code id="bib-code-{{ .key }}">{{ trim .bibtex "\n" }}</code></pre>
+      </div>
+    {{ end }}
+  </div>
+</article>

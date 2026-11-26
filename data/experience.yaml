@@ -1,0 +1,8 @@
+- title: "Research Intern"
+  organization: "Shanghai Artificial Intelligence Laboratory"
+  url: "https://www.shlab.org.cn/"
+  period: "Oct 2023 – Apr 2024"
+  location: "Shanghai, China"
+  highlights:
+    - "Led the design and evaluation of training algorithms for chemical reaction condition recommendation using LLMs, including dataset construction and cleaning."
+    - "Contributed to DPO alignment training of a chemistry-specific LLM (ChemLLM), including preference dataset construction and training algorithm development."

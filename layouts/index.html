@@ -1,0 +1,222 @@
+{{ define "main" }}
+{{ $profile := .Site.Data.profile }}
+
+<!-- Section 1: About -->
+<section id="about" class="home-section section-about">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Left Column: Portrait & Socials -->
+      <div class="profile-col">
+        <div class="avatar-wrap">
+          <img src="{{ $profile.avatar | relURL }}" alt="{{ $profile.name }}" class="avatar-circle">
+        </div>
+        <div class="portrait-title">
+          <h2>{{ $profile.name }}</h2>
+          <h3 class="portrait-role">{{ $profile.chinese_name }} | {{ $profile.role }}</h3>
+          <h3 class="portrait-affil">
+            <a href="{{ $profile.affiliation_url }}" target="_blank" rel="noopener">{{ $profile.affiliation }}</a>
+          </h3>
+        </div>
+        <ul class="network-icon" aria-label="Social links">
+          {{ range $profile.socials }}
+            <li>
+              <a href="{{ if or (hasPrefix .url "http") (hasPrefix .url "mailto:") }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}"{{ if not (hasPrefix .url "mailto:") }} target="_blank" rel="noopener"{{ end }} aria-label="{{ .name }}" title="{{ .name }}">
+                <i class="{{ .icon }} big-icon"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <!-- Right Column: Bio, Quote, Interests & Education -->
+      <div class="bio-col">
+        <div class="bio-content">
+          {{ .Content }}
+        </div>
+
+        {{ if $profile.quote }}
+          <blockquote class="bio-quote">
+            <p class="quote-text" lang="fr"><em>{{ $profile.quote.text }}</em></p>
+            <p class="quote-trans">{{ $profile.quote.translation }} &mdash; {{ $profile.quote.author }}</p>
+          </blockquote>
+        {{ end }}
+
+        <div class="bio-meta-grid">
+          <div class="meta-block">
+            <h3 class="meta-heading">Interests</h3>
+            <ul class="ul-interests">
+              {{ range $profile.interests }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="meta-block">
+            <h3 class="meta-heading">Education</h3>
+            <ul class="ul-edu">
+              {{ range $profile.education }}
+                <li>
+                  <i class="fas fa-graduation-cap edu-icon"></i>
+                  <div class="description">
+                    <p class="course">{{ .degree }} <span class="edu-year">({{ .year }})</span></p>
+                    <p class="institution">{{ .institution }}</p>
+                    {{ if .note }}<p class="edu-note">{{ .note }}</p>{{ end }}
+                  </div>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Selected Publications -->
+<section id="publications" class="home-section">
+  <div class="container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <h1>Selected Publications</h1>
+        <p class="section-subtitle">* denotes equal contribution</p>
+        <p class="section-more">
+          <a href="{{ "/publications/" | relURL }}">See all publications &rarr;</a>
+        </p>
+      </div>
+
+      <div class="section-body">
+        <div class="pub-list">
+          {{ range .Site.Data.publications }}
+            {{ if .selected }}
+              {{ partial "pub-card.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Experience -->
+<section id="experience" class="home-section">
+  <div class="container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <h1>Experience</h1>
+      </div>
+
+      <div class="section-body">
+        <div class="timeline">
+          {{ range .Site.Data.experience }}
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <span class="timeline-dot"></span>
+                <span class="timeline-line"></span>
+              </div>
+              <div class="exp-card">
+                <div class="exp-header">
+                  <div>
+                    <h3 class="exp-title">{{ .title }}</h3>
+                    <div class="exp-org">
+                      {{ if .url }}
+                        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .organization }}</a>
+                      {{ else }}
+                        {{ .organization }}
+                      {{ end }}
+                    </div>
+                  </div>
+                  <div class="exp-meta">
+                    <span class="exp-period">{{ .period }}</span>
+                    {{ if .location }}<span class="exp-location">{{ .location }}</span>{{ end }}
+                  </div>
+                </div>
+                {{ if .highlights }}
+                  <ul class="exp-highlights">
+                    {{ range .highlights }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 4: Academic Service -->
+<section id="service" class="home-section">
+  <div class="container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <h1>Academic Service</h1>
+      </div>
+
+      <div class="section-body">
+        {{ if .Site.Data.service.organizer }}
+          <div class="service-group">
+            <h3 class="service-subheading">Organizer</h3>
+            <ul class="service-list">
+              {{ range .Site.Data.service.organizer }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        {{ if .Site.Data.service.reviewer }}
+          <div class="service-group">
+            <h3 class="service-subheading">Reviewer</h3>
+            <div class="reviewer-grid">
+              {{ range .Site.Data.service.reviewer }}
+                <div class="reviewer-col">
+                  <h4>{{ .category }}</h4>
+                  <ul class="service-list">
+                    {{ range .venues }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 5: Contact -->
+<section id="contact" class="home-section">
+  <div class="container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <h1>Contact</h1>
+      </div>
+
+      <div class="section-body">
+        <ul class="contact-list">
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:{{ $profile.email }}">{{ $profile.email }}</a>
+          </li>
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>{{ $profile.affiliation }}, {{ $profile.location }}</span>
+          </li>
+          <li>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/yuliangyan0807" target="_blank" rel="noopener">github.com/yuliangyan0807</a>
+          </li>
+          <li>
+            <i class="ai ai-google-scholar"></i>
+            <a href="https://scholar.google.com/citations?user=ZukVBVUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

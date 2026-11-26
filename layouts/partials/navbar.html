@@ -1,0 +1,27 @@
+<header class="site-header">
+  <nav class="navbar" id="navbar-main" aria-label="Main navigation">
+    <div class="container nav-container">
+      <a class="navbar-brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          {{ range .Site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | relURL }}"{{ if .Params.external }} target="_blank" rel="noopener"{{ end }}>
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+          <i class="fas fa-moon icon-moon"></i>
+          <i class="fas fa-sun icon-sun"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>

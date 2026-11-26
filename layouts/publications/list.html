@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="home-section page-publications">
+  <div class="container">
+    <div class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="section-subtitle">{{ . }}</p>{{ end }}
+      <div class="pub-search-wrap">
+        <i class="fas fa-search"></i>
+        <input type="search" id="pub-search" class="pub-search-input" placeholder="Search by title, author, venue, or year..." aria-label="Search publications">
+      </div>
+    </div>
+
+    {{ $years := slice }}
+    {{ range .Site.Data.publications }}
+      {{ if not (in $years .year) }}
+        {{ $years = $years | append .year }}
+      {{ end }}
+    {{ end }}
+
+    <div id="pub-years-container">
+      {{ range $year := $years }}
+        <div class="pub-year-group" data-year="{{ $year }}">
+          <h2 class="pub-year-heading">{{ $year }}</h2>
+          <div class="pub-list">
+            {{ range $.Site.Data.publications }}
+              {{ if eq .year $year }}
+                {{ partial "pub-card.html" . }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
